@@ -1,0 +1,146 @@
+/* navbar */
+.container-navbar {
+    background-color: #333;
+    padding: 15px; 
+    text-align: center;
+    box-sizing: border-box; 
+    height: 60px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.h1-navbar {
+    color: white;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.h1a-navbar { 
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.ul-navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+
+.li-navbar {
+    margin: 0 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px; 
+}
+
+.li-navbar:hover {
+    background-color: antiquewhite;
+    transition: .5s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 5px;
+    color: black;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-size: 18px; 
+}
+
+.a-navbar:hover {
+    text-decoration: none;
+}
+
+/* content */
+.container-content {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 30px;
+        background-color: bisque;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    a { 
+        text-decoration: none; 
+        font-size: 20px;
+        font-weight: 600;
+        color: #00aaff;
+        margin-bottom: 5px;
+    }
+    
+    h3 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 5px;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    p {
+        font-size: 16px;
+        color: #555;
+        line-height: 1.6;
+    }
+
+.p1-content {
+    font-weight: 1000;
+}
+    
+    ul {
+        list-style-type: none;
+        padding-left: 20px;
+        font-size: 16px;
+    }
+    
+    ul li {
+        margin-bottom: 10px;
+        line-height: 1.8;
+    }
+    
+    .li-content::before {
+       content: "•" ;
+       margin-right: 10px;  
+    }
+    
+    /* Footer */
+    .footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        bottom: 0;
+        width: 98.65%;
+    }
+    
+    .footer h2 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0;
+    }
+    
+    /* Responsiveness */
+    @media (max-width: 768px) {
+        .container-content {
+            padding: 20px;
+        }
+    
+        h3 {
+            font-size: 22px;
+        }
+    
+        h4 {
+            font-size: 18px;
+        }
+    
+        p, ul li {
+            font-size: 14px;
+        }
+    
+        .footer h2 {
+            font-size: 16px;
+        }
+    }
